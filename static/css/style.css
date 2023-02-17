@@ -1,0 +1,428 @@
+@font-face {
+    font-family: 'Cinzel-400';
+    src: url(../fonts/Cinzel-400.ttf);
+}
+
+@font-face {
+    font-family: 'Cinzel-700';
+    src: url(../fonts/Cinzel-700.ttf);
+}
+
+@font-face {
+    font-family: 'Open-Sans-400';
+    src: url(../fonts/OpenSans-400.ttf);
+}
+
+@font-face {
+    font-family: 'Open-Sans-600';
+    src: url(../fonts/OpenSans-600.ttf);
+}
+
+header {
+    height: 110px;
+    background-color: #F5EFEF;
+}
+
+.header-container {
+    padding: 34px 100px;
+    background-color: inherit;
+    display: flex;
+}
+
+.logo {
+    margin: 6px 350px 6px 0;
+}
+
+.profile {
+    margin-left: 190px;
+}
+
+.heading a {
+    text-decoration: none;
+}
+
+.tabs {
+    width: 508px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 0;
+}
+
+.logo-beginning, .logo-ending{
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 30px;
+    color: #3F3232;
+}
+
+.logo-beginning {
+    font-family: 'Cinzel-400';
+}
+
+.logo-ending {
+    font-family: 'Cinzel-700';
+}
+
+.tabs a {
+    text-decoration: none;
+    font-family: 'Cinzel-400';
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F3232;
+}
+
+.main-container {
+    padding: 162px 100px 183px;
+}
+
+.main-container h1 {
+    font-family: 'Cinzel-700';
+    font-size: 24px;
+    line-height: 70px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 100px;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card {
+    width: 300px;
+    padding: 22px 22px 42px;
+    background-color: #F7F5F5;
+    border: 2.88286px solid rgba(117, 70, 74, 0.88);
+    border-radius: 28px;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.title-and-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.title-and-price h3 {
+    font-family: 'Cinzel-700';
+    font-size: 16px;
+    line-height: 22px;
+    color: #121111;
+}
+
+.price {
+    font-family: 'Cinzel-400';
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.stock {
+    display: flex;
+    font-size: 0;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+.stock p {
+    font-family: 'Cinzel-700';
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.stock-info {
+    color: #121111;
+}
+
+.comment {
+    color: #FF0000;
+}
+
+.product-card button {
+    width: 159px;
+    height: 38px;
+    background-color: #3F3232;
+    border-radius: 10px;
+    font-family: 'Cinzel-700';
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 138px;
+    cursor: pointer;
+}
+
+.view-more {
+    width: 237px;
+    height: 63px;
+    background-color: #3F3232;
+    border-radius: 10px;
+    font-family: 'Cinzel-700';
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-top: 92px;
+    margin-left: 82%;
+    cursor: pointer;
+}
+
+footer {
+    height: 300px;
+    background-color: #F5EFEF;
+}
+
+.footer-container {
+    padding: 63px 100px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    font-size: 0;
+}
+
+.footer-column.first {
+    margin-right: 350px;
+}
+
+.footer-column.first p {
+    font-family: 'Cinzel-400';
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 13px;
+    margin-bottom: 47px;
+}
+
+.social-media-icons {
+    width: 129px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column.second, .footer-column.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-column.second p, .footer-column.third address {
+    font-family: 'Cinzel-400';
+    font-size: 16px;
+    line-height: 22px;
+    color: #75464A;
+}
+
+.address {
+    display: flex;
+}
+
+.address img {
+    margin-right: 20px;
+}
+
+.gallery-container {
+    padding: 104px 100px 400px;
+}
+
+.gallery-container h1, .about-container h1, .contact-container h1 {
+    font-family: 'Cinzel-700';
+    font-size: 24px;
+    line-height: 70px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 100px;
+}
+
+.photo-gallery {
+    width: 1199px;
+    height: 1310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.photo-gallery img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.photo:hover {
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.faq-container {
+    padding: 170px 175px 114px;
+}
+
+.faq-container h1 {
+    font-family: 'Cinzel-700';
+    font-size: 18px;
+    line-height: 24px;
+    color: #D9D9D9;
+    margin-bottom: 71px;
+}
+
+.faq-container h2 {
+    font-family: 'Open Sans-600';
+    font-size: 25px;
+    line-height: 34px;
+    color: #121111;
+    width: 700px;
+    height: 55px;
+    border-bottom: 1px solid #75464A;
+    margin-bottom: 43px;
+}
+
+.faq-container p {
+    width: 1029px;
+    font-family: 'Open Sans-400';
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 144px;
+}
+
+.about-container, .contact-container {
+    padding: 162px 100px 183px;
+}
+
+.about-container p {
+    width: 704px;
+    font-family: 'Cinzel-400';
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 64px;
+}
+
+.about-container article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 248px;
+}
+
+.about-container img {
+    width: 384px;
+}
+
+.contact-container h2, .working-hours {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-container h2 {
+    font-family: 'Cinzel-700';
+}
+
+.working-hours {
+    width: 600px;
+    font-family: 'Cinzel-400';
+    margin-top: 20px;
+    text-align: right;
+    margin-left: 300px;
+    margin-bottom: 97px;
+}
+
+.message {
+    width: 1340px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.first-name label, .last-name label, .email label, .repeat-email label, .tell-us label {
+    display: block;
+    font-family: 'Cinzel-400';
+    font-size: 16px;
+    line-height: 22px;
+    color: #3D3D3D;
+    margin-bottom: 14px;
+}
+
+.first-name input, .last-name input, .email input, .repeat-email input {
+    width: 525px;
+    height: 66px;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 10px;
+}
+
+.tell-us {
+    margin-top: 90px;
+}
+
+.map {
+    margin-top: 122px;
+}
+
+.tell-us input {
+    width: 524px;
+    height: 324px;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 10px;
+    padding: 38px 32px;
+    font-family: 'Cinzel-400';
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 0.61);
+}
+
+.checkbox {
+    margin-top: 38px;
+    display: flex;
+}
+
+.checkbox input {
+    width: 25px;
+    height: 25px;
+    accent-color: rgba(239, 222, 223, 0.7);
+    border: 1px solid #75464A;
+    border-radius: 10px;
+}
+
+.checkbox label {
+    font-family: 'Cinzel-400';
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin: 8px 0 0 11px;
+}
+
+.send-message button {
+    width: 224px;
+    height: 64px;
+    background-color: #3F3232;
+    border-radius: 10px;
+    font-family: 'Cinzel-700';
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-top: 82px;
+    cursor: pointer;
+}
+
+.send-message {
+    text-align: right;
+}
